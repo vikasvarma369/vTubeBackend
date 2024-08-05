@@ -40,7 +40,7 @@ const publishAVideo = asyncHandler(async (req, res) => {
         },
         thumbnail:{
             public_id: thumbnail?.public_id,
-            url: thumbnail?.url
+            Url: thumbnail?.url
         },
         title,
         description,
